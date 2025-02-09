@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+// ContactControllerを使用
+use App\Http\Controllers\ContactController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+// ルート　/ にアクセスしたらContactControllerのindexアクションを起動
+Route::get('/', [ContactController::class, 'index']);
