@@ -1,12 +1,12 @@
 .header__inner {
+    margin: 0 auto;
     border: solid 1px #E0DFDE;
     height: 100px;
     max-width: 1512px;
 }
 
 .header__logo {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: #8B7969;
 }
 

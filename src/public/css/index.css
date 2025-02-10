@@ -1,0 +1,33 @@
+.contact-form__content {
+    
+    
+}
+
+.contact-form__heading {
+    text-align: center;
+
+
+    font-family: 'Inika' , serif;
+    font-weight: 400;
+    
+    line-height: 45.61px;
+    letter-spacing: 0%;
+    
+
+
+    
+
+}
+
+form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: cente;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-around;
+}
+
+
