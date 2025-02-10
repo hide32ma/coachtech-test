@@ -1,0 +1,12 @@
+.header__inner {
+    border: solid 1px #E0DFDE;
+    height: 100px;
+    max-width: 1512px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    color: #8B7969;
+}
+

@@ -17,5 +17,8 @@ use App\Http\Controllers\ContactController;
 */
 
 
-// ルート　/ にアクセスしたらContactControllerのindexアクションを起動
+// 　/localhost にアクセスしたらContactControllerのindexアクションを起動
 Route::get('/', [ContactController::class, 'index']);
+
+//  /localhostにて、確認画面ボタンが押され時にContactControllerのconfurmアクションを起動
+Route::post('/confirm', [ContactController::class, 'confirm']);
