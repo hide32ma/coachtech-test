@@ -103,6 +103,7 @@
     </div>
 
 <!-- 電話番号 -->
+<!-- 出来ていない -->
     <div class="form__group">
         <div class="form__group-title">
             <span class="form__label--item">電話番号</span>
@@ -157,8 +158,10 @@
             </div>
         </div>
     </div>
-    
+
+
 <!-- お問い合わせの種類 -->
+ <!-- 出来てない -->
     <div class="form__group">
         <div class="form__group-title">
             <span class="form__label--item">お問い合わせの種類</span>
@@ -181,6 +184,7 @@
             </div>
         </div>
     </div>
+
 
 <!-- お問い合わせ内容 -->
     <div class="form__group">
@@ -212,7 +216,7 @@
 
 
 
-    </form>
+</form>
 
 </div>
 @endsection
