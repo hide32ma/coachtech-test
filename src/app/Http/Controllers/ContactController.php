@@ -21,10 +21,13 @@ class ContactController extends Controller
 
     public function confirm(ContactRequest $request)
     {
-        $contact = $request->only(['first_name', 'last_name', 'gender', 'email', 'tel', 'address', 'detail',]);
 
-        //confirm.blade.phpへ受け渡す
+        $contact = $request->only(['first_name', 'last_name', 'gender', 'email', 'tel', 'address', 'detail']);
+
+
         return view('confirm', compact('contact'));
+
+
     }
 
 

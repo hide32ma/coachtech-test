@@ -4,6 +4,12 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
+// 追加
+//use Illuminate\Contracts\Validation\Validator;
+
+// 追加
+//use Illuminate\Http\Exceptions\HttpResponseException;
+
 class ContactRequest extends FormRequest
 {
     /**
@@ -21,21 +27,22 @@ class ContactRequest extends FormRequest
      *
      * @return array
      */
-    
+
 
     //  バリデーション設定
     public function rules()
     {
         return [
-            'first_name' => 'required|max:255',
-            'last_name' => 'required|max:255',
-            'gender' => 'required',
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+             'gender' => 'required|in:male,female,other',
             'email' => 'required|email',
-            'tel' => 'required|numeric',
-            'address' => 'required',
-            'detail' => 'required|max120',
+            'tel' => 'required|numeric|digits_between:10,11',
+            'address' => 'required|string|max:255',
+            'detail' => 'required|string|max:120',
         ];
     }
+
 
     // バリデーションのエラー文
     public function messages()
@@ -54,7 +61,7 @@ class ContactRequest extends FormRequest
             // お問い合わせの種類　出来ていない
 
             'detail.required' => 'お問い合わせ内容を入力してください',
-            'detail.max120' => 'お問合せ内容は120文字以内で入力してください',
+            'detail.max:120' => 'お問合せ内容は120文字以内で入力してください',
 
         ];
     }
