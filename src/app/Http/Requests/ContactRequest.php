@@ -39,6 +39,7 @@ class ContactRequest extends FormRequest
             'email' => 'required|email',
             'tel' => 'required|numeric|digits_between:10,11',
             'address' => 'required|string|max:255',
+            
             'detail' => 'required|string|max:120',
         ];
     }

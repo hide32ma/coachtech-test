@@ -21,14 +21,17 @@ class ContactController extends Controller
 
     public function confirm(ContactRequest $request)
     {
+            //$contact = $request->all();
 
-        $contact = $request->only(['first_name', 'last_name', 'gender', 'email', 'tel', 'address', 'detail']);
+        $contact = $request->only(['category_id','first_name', 'last_name', 'gender', 'email', 'tel', 'address', 'detail', 'details', 'building']);
 
 
         return view('confirm', compact('contact'));
 
 
+
     }
+
 
 
 

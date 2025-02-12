@@ -10,14 +10,16 @@
 
 
 <div class="contact-form__content">
-    <div class="contact-form__heading">
-        <h2>Contact</h2>
-    </div>
+    <h2 class="contact-form__heading">
+        Contact
+    </h2>
 
 
 <form class="form" action="/confirm" method="post">
 
 @csrf
+
+<input type="hidden" name="category_id">
 
 
 <!-- お名前 -->
@@ -161,7 +163,7 @@
             <div class="form__input--text">
 
             <!-- old関数 -->
-            <input type="text" name="address" placeholder=" 例:千駄ヶ谷マンション" value="{{ old('address') }}" />
+            <input type="text" name="building" placeholder=" 例:千駄ヶ谷マンション" value="{{ old('building') }}" />
             </div>
         </div>
     </div>
@@ -176,12 +178,16 @@
 
 
         <div class="form__group-content">
-            <div class="form__input--details">
+            <div class="form__input--text">
 
 
             <input type="text" list="details" name="details" placeholder=" 選択してください">
             <datalist id="details">
-                <option value="何でも良いよ">
+                <option value="商品のお届けについて">
+                <option value="商品の交換について">
+                <option value="商品トラベル">
+                <option value="ショップへのお問い合わせ">
+                <option value="その他">
                 </option>
             </div>
 
