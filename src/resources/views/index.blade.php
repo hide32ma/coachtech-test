@@ -65,19 +65,25 @@
             <div class="form__group-content">
                 <div class="form__input--text">
 
+
                 <!-- old関数 -->
+                 <!-- 理解できていない -->
                  <input type="radio" name="gender" value="male" {{ old('gender', 'male') == 'male' ? 'checked' : ''}}>男性
 
                 <input type="radio" name="gender" value="female" {{ old('gender') == 'female' ? 'checked' : ''}}>女性
-            
-
-                <!-- <input type="radio" name="gender" value="{{ old('gender') }}" />女性 -->
-            
-
-                <!-- <input type="radio" name="gender" value="{{ old('gender') }}" />その他 -->
 
                 <input type="radio" name="gender" value="other" {{ old('gender') == 'other' ? 'checked' : ''}}>その他
                 </div>
+
+
+
+
+
+                
+                
+                
+
+                <!-- <input type="radio" name="gender" value="{{ old('gender') }}" />その他 -->
 
                 <div class="form__error">
                 <!--バリデーション-->

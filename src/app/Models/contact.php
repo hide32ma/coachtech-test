@@ -5,6 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+
+use App\Models\Category;
+use App\Models\User;
+
+
 class contact extends Model
 {
     use HasFactory;
@@ -19,7 +24,8 @@ class contact extends Model
         'tel',
         'address',
         'building',
-        'detail'
+        'detail',
+        'details'
     ];
 
 

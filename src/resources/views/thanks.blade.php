@@ -13,7 +13,7 @@
     <!-- thanks.css呼び出し -->
     <link rel="stylesheet" href="{{ asset('css/thanks.css') }}" />
 
-   
+
 
 </head>
 
@@ -25,8 +25,7 @@
     </header>
 
 <main>
-
-   
+   <p>成功</p>
 
 </main>
 </body>

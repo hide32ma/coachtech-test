@@ -4,11 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-// 追加
-//use Illuminate\Contracts\Validation\Validator;
 
-// 追加
-//use Illuminate\Http\Exceptions\HttpResponseException;
 
 class ContactRequest extends FormRequest
 {
@@ -39,7 +35,7 @@ class ContactRequest extends FormRequest
             'email' => 'required|email',
             'tel' => 'required|numeric|digits_between:10,11',
             'address' => 'required|string|max:255',
-            
+
             'detail' => 'required|string|max:120',
         ];
     }
@@ -55,8 +51,9 @@ class ContactRequest extends FormRequest
             'email.required' => 'メールアドレスを入力してください',
             'email.email' => 'メールアドレスはメール形式で入力してください',
 
-            // 電話番号5桁に出来ていない
+            
             'tel.required' => '電話番号を入力してください',
+            
             'address.required' => '住所を入力してください',
 
             // お問い合わせの種類　出来ていない
