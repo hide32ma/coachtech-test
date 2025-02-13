@@ -10,78 +10,80 @@
 
 
 <div class="contact-form__content">
-    <h2 class="contact-form__heading">
-        Contact
-    </h2>
-
-
-<form class="form" action="/confirm" method="post">
-
-@csrf
-
-<input type="hidden" name="category_id">
-
-
-<!-- お名前 -->
-    <div class="form__group">
-        <div class="form__group-title">
-            <span class="form__label--item">お名前</span>
-        </div>
-
-            <div class="form__group-content">
-                <div class="form__input--text">
-
-                <!-- old関数 -->
-                <input type="text" name="first_name" placeholder=" 例:山田" value="{{ old('first_name') }}" />
-
-                <!-- old関数 -->
-                <input type="text" name="last_name" placeholder=" 例:太朗" value="{{ old('last_name') }}" />
-
-                </div>
-            </div>
-                <div class="form__error">
-                <!--バリデーション-->
-                @error('first_name')
-                {{ $message }}
-                @enderror
-                </div>
-
-                <div class="form__error">
-                <!--バリデーション-->
-                @error('last_name')
-                {{ $message }}
-                @enderror
-                </div>
+    <div class="contact-form__heading">
+        <h2>Contact</h2>
     </div>
 
 
+    <form class="form" action="/confirm" method="post">
+
+@csrf
+
+    <input type="hidden" name="category_id">
 
 
-<!-- 性別 -->
-    <div class="form__group">
-        <div class="form__group-title">
-            <span class="form__label--item">性別</span>
+    <!-- お名前 -->
+    <div class="form__group"></div>
+            <div class="form__group-title-name">
+                <div class="form__label-item-name">お名前
+                </div>
+            </div>
+
+                    <div class="form__group-content">
+
+                        <div class="form__input-text-first_name">
+                            <!-- old関数 -->
+                            <input type="text" name="first_name" placeholder=" 例:山田" value="{{ old('first_name') }}" />
+                        </div>
+
+                        <div class="form__input-text-last_name">
+                            <!-- old関数 -->
+                            <input type="text" name="last_name" placeholder=" 例:太朗" value="{{ old('last_name') }}" />
+                        </div>
+
+                    </div>
+                        <div class="form__error">
+                        <!--バリデーション-->
+                        @error('first_name')
+                        {{ $message }}
+                        @enderror
+                        </div>
+
+                        <div class="form__error">
+                        <!--バリデーション-->
+                        @error('last_name')
+                        {{ $message }}
+                        @enderror
+                        </div>
+        
+
+
+
+
+        <!-- 性別 -->
+    
+        <div class="form__group-title-gender">
+            <span class="form__label--item-gender">性別</span>
         </div>
             <div class="form__group-content">
                 <div class="form__input--text">
 
 
                 <!-- old関数 -->
-                 <!-- 理解できていない -->
-                 <input type="radio" name="gender" value="male" {{ old('gender', 'male') == 'male' ? 'checked' : ''}}>男性
+                <!-- 理解できていない -->
+                <!-- AIに頼った -->
+                <input type="radio" class="input-radio-male" name="gender" value="male" {{ old('gender', 'male') == 'male' ? 'checked' : ''}}>
+                <span class="male">男性</span>
 
-                <input type="radio" name="gender" value="female" {{ old('gender') == 'female' ? 'checked' : ''}}>女性
+                <input type="radio" class="input-radio-female" name="gender" value="female" {{ old('gender') == 'female' ? 'checked' : ''}}>
+                <span class="female">女性</span>
 
-                <input type="radio" name="gender" value="other" {{ old('gender') == 'other' ? 'checked' : ''}}>その他
+                <input type="radio" class="input-radio-other" name="gender" value="other" {{ old('gender') == 'other' ? 'checked' : ''}}>
+                <span class="other">その他</span>
+
                 </div>
 
 
-
-
-
-                
-                
-                
 
                 <!-- <input type="radio" name="gender" value="{{ old('gender') }}" />その他 -->
 
@@ -92,20 +94,20 @@
                 @enderror
                 </div>
             </div>
-    </div>
+    
 
 
 
-<!-- メールアドレス -->
-    <div class="form__group">
+        <!-- メールアドレス -->
+    
         <div class="form__group-title">
-            <span class="form__label--item">メールアドレス</span>
+            <span class="form__label--item-email">メールアドレス</span>
         </div>
             <div class="form__group-content">
-                <div class="form__input--text">
+                <div class="form__input--text-email">
 
                 <!-- old関数 -->
-                <input type="email" name="email" placeholder="test@example.com" value="{{ old('email') }}" />
+                <input type="email" class="input-email" name="email" placeholder="test@example.com" value="{{ old('email') }}" />
                 </div>
 
                 <div class="form__error">
@@ -115,19 +117,19 @@
                 @enderror
                 </div>
             </div>
-    </div>
+    
 
-<!-- 電話番号 -->
-<!-- 出来ていない -->
-    <div class="form__group">
+        <!-- 電話番号 -->
+        <!-- 出来ていない -->
+    
         <div class="form__group-title">
-            <span class="form__label--item">電話番号</span>
+            <span class="form__label--item-tel">電話番号</span>
         </div>
             <div class="form__group-content">
-                <div class="form__input--text">
+                <div class="form__input--text-tel">
 
                     <!-- old関数 -->
-                    <input type="tel" name="tel" placeholder="08012345678"  value="{{ old('tel') }}" />
+                    <input type="tel" class="input-tel" name="tel" placeholder="08012345678"  value="{{ old('tel') }}" />
                 </div>
 
                     <div class="form__error">
@@ -137,18 +139,18 @@
                     @enderror
                     </div>
             </div>
-    </div>
+    
 
-<!-- 住所 -->
-    <div class="form__group">
+        <!-- 住所 -->
+    
         <div class="form__group-title">
-            <span class="form__label--item">住所</span>
+            <span class="form__label--item-address">住所</span>
         </div>
             <div class="form__group-content">
-                <div class="form__input--text">
+                <div class="form__input--text-address">
 
                 <!-- old関数 -->
-                <input type="text" name="address" placeholder=" 例:東京都渋谷区千駄ヶ谷1-2-3" value="{{ old('address') }}" />
+                <input type="text" class="input-address" name="address" placeholder=" 例:東京都渋谷区千駄ヶ谷1-2-3" value="{{ old('address') }}" />
                 </div>
 
                 <div class="form__error">
@@ -158,36 +160,36 @@
                 @enderror
                 </div>
             </div>
-    </div>
+    
 
-<!-- 建物名 -->
-    <div class="form__group">
+        <!-- 建物名 -->
+    
         <div class="form__group-title">
-            <span class="form__label--item">建物名</span>
+            <span class="form__label--item-building">建物名</span>
         </div>
         <div class="form__group-content">
-            <div class="form__input--text">
+            <div class="form__input--text-building">
 
             <!-- old関数 -->
-            <input type="text" name="building" placeholder=" 例:千駄ヶ谷マンション" value="{{ old('building') }}" />
+            <input type="text" class="input-building" name="building" placeholder=" 例:千駄ヶ谷マンション" value="{{ old('building') }}" />
             </div>
         </div>
-    </div>
+    
 
 
-<!-- お問い合わせの種類 -->
- <!-- 出来てない -->
-    <div class="form__group">
+        <!-- お問い合わせの種類 -->
+        <!-- 出来てない -->
+    
         <div class="form__group-title">
-            <span class="form__label--item">お問い合わせの種類</span>
+            <span class="form__label--item-details">お問い合わせの種類</span>
         </div>
 
 
         <div class="form__group-content">
-            <div class="form__input--text">
+            <div class="form__input--text-details">
 
 
-            <input type="text" list="details" name="details" placeholder=" 選択してください">
+            <input type="text" list="details" name="details" class="input-details" placeholder=" 選択してください">
             <datalist id="details">
                 <option value="商品のお届けについて">
                 <option value="商品の交換について">
@@ -204,19 +206,19 @@
                 @enderror
                 </div>
         </div>
-    </div>
+    
 
 
-<!-- お問い合わせ内容 -->
-    <div class="form__group">
+        <!-- お問い合わせ内容 -->
+    
         <div class="form__group-title">
-            <span class="form__label--item">お問い合わせ内容</span>
+            <span class="form__label--item-detail">お問い合わせ内容</span>
         </div>
         <div class="form__group-content">
-            <div class="form__input--text">
+            <div class="form__input--text-detail">
 
             <!-- old関数 -->
-            <input type="tel" name="detail" placeholder=" お問い合わせ内容をご確認ください"  value="{{ old('detail') }}" />
+            <input type="tel" class="input-detail" name="detail" placeholder=" お問い合わせ内容をご確認ください"  value="{{ old('detail') }}" />
             </div>
 
             <div class="form__error">
@@ -226,7 +228,7 @@
             @enderror
             </div>
         </div>
-    </div>
+    
 
 
     <div class="form__button">
@@ -237,7 +239,7 @@
 
 
 
-</form>
+    </form>
 
 
 

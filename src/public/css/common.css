@@ -1,12 +1,14 @@
-.header__inner {
-    margin: 0 auto;
-    border: solid 1px #E0DFDE;
+.header {
+    position: relative;
+    width: 1512px;
     height: 100px;
-    max-width: 1512px;
+    border: solid 1px #E0DFDE;
 }
 
 .header__logo {
     text-align: center;
     color: #8B7969;
+
+    
 }
 
