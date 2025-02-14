@@ -19,13 +19,18 @@
 
 <body>
     <header class="header">
-        <div class="header__inner">
-            <h1 class="header__logo">FashionablyLate</h1>
-        </div>
     </header>
 
 <main>
-   <p>成功</p>
+   <div class="main-box">
+    
+   </div>
+
+   <div class="Thank_you">Thank you</div>
+
+   <div class="message">お問合せありがとうございました</div>
+
+   <a class="return" href="javascript:history.go(-2)">HOME</a>
 
 </main>
 </body>

@@ -38,12 +38,16 @@ class ContactController extends Controller
 
 
         // データベースに保存しようとするとエラー
-        // 性別が悪さしている
+        // 性別が悪さしている...
 
         //Contact::create($contact);
+
         return view('thanks', compact('contact'));
     }
 
+
+
+    
 
 
 

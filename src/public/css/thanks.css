@@ -1,0 +1,51 @@
+main {
+    position: relative;
+    width: 1512px;
+    height: 982px;
+}
+
+.main-box {
+    position: absolute;
+    top: 319px;
+    left: 66px;
+    width: 1381px;
+    height: 365px;
+}
+
+.Thank_you {
+    position: absolute;
+    top: 319px;
+    left: 66px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 280px;
+    line-height: 364.84px;
+    letter-spacing: 0%;
+    color: rgba(139, 121, 105, 0.05);
+}
+
+.message {
+    position: absolute;
+    top: 461px;
+    left: 501px;
+    width: 510px;
+    height: 39px;
+    font-family: 'Inika', serif;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 39.09px;
+    letter-spacing: 0%;
+    color: rgba(139, 121, 105, 1);
+
+}
+
+.return {
+    position: absolute;
+    top: 555px;
+    left: 686px;
+    width: 140px;
+    height: 46px;
+    padding: 10px 40px;
+    color: #FFFFFF;
+    background-color: rgba(130, 117, 106, 1);
+}

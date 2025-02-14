@@ -1,0 +1,394 @@
+.confirm-form__title {
+    position: absolute;
+    width: 133px;
+    height: 43px;
+    top: 150px;
+    left: 694px;
+}
+
+h2 {
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 35px;
+    line-height: 45.61px;
+    letter-spacing: 0%;
+    color: #8B7969;
+    white-space: nowrap;
+}
+
+
+.confirm-table {
+    position: absolute;
+    top: 247px;
+    left: 273px;
+    width: 972px;
+    height: 606px;
+    border: 1px #E0DFDE;
+    background-color: #FFFFFF;
+}
+
+
+/* お名前 */
+.confirm-table__row {
+    position: absolute;
+    top: 247px;
+    left: 273px;
+    width: 305px;
+    height: 69.92px;
+    background-color: #BAA899;
+}
+
+.confirm-table__header-name {
+    position: absolute;
+    top: 21.44px;
+    left: 62px;
+    width: 64.21px;
+    height: 28.86px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.confirm-table-date-name {
+    position: absolute;
+    top: 268.44px;
+    left: 623px;
+    width: 100px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #8B7969;
+}
+
+/* あとで消す */
+.name-border-bottom {
+    position: absolute;
+    top: 69.92px;
+    border-bottom: 1px red;
+    transform: rotate(-0.11deg);
+    width: 969px;
+    
+}
+
+/* 性別 */
+.confirm-table-gender {
+    position: absolute;
+    top: 316.92px;
+    left: 273px;
+    width: 305px;
+    height: 69.92px;
+    background-color: #BAA899;
+}
+
+/* ???? */
+.gender-table-header {
+    position: absolute;
+    top: 340.23px;
+    left: 340px;
+    width: 64.21;
+    height: 28.86px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.gender-table-data {
+    position: absolute;
+    top: 340.23px;
+    left: 625px;
+    width: 40px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #8B7969;
+}
+
+/* メールアドレス */
+.confirm-table-email {
+    position: absolute;
+    top: 386.85px;
+    left: 273px;
+    width: 305px;
+    height: 69.92px;
+    background-color: #BAA899;
+}
+
+
+.email-table-header {
+    position: absolute;
+    top: 408.29px;
+    left: 340px;
+    width: 192px;
+    height: 408px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.email-table-data {
+    position: absolute;
+    top: 408.29px;
+    left: 625px;
+    width: 192px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    white-space: nowrap;
+    color: #8B7969;
+}
+
+.confirm-table-tel {
+    position: absolute;
+    top: 456.77px;
+    left: 273px;
+    width: 305px;
+    height: 69.92px;
+    background-color: #BAA899;
+}
+
+.tel-table-header {
+    position: absolute;
+    top: 478.21px;
+    left: 340px;
+    width: 109px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.tel-table-data {
+    position: absolute;
+    top: 478.21px;
+    left: 625px;
+    width: 109px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    white-space: nowrap;
+    color: #8B7969;
+}
+
+.confirm-table-address {
+    position: absolute;
+    top: 526.69px;
+    left: 273px;
+    width: 305px;
+    height: 69.92px;
+    background-color: #BAA899;
+}
+
+.address-table-header {
+    position: absolute;
+    top: 548.14px;
+    left: 340px;
+    width: 109px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.address-table-data {
+    position: absolute;
+    top: 548.14px;
+    left: 625px;
+    width: 306px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #8B7969;
+}
+
+.confirm-table-building {
+    position: absolute;
+    top: 596.62px;
+    left: 273px;
+    width: 305px;
+    height: 69.92px;
+    background-color: #BAA899;
+}
+
+.building-table-header {
+    position: absolute;
+    top: 619.92px;
+    left: 340px;
+    width: 219px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.building-table-data {
+    position: absolute;
+    top: 619.92px;
+    left: 625px;
+    width: 180px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #8B7969;
+}
+
+.confirm-table-details {
+    position: absolute;
+    top: 666.54px;
+    left: 273px;
+    width: 305px;
+    height: 69.92px;
+    background-color: #BAA899;
+}
+
+.details-table-header {
+    position: absolute;
+    top: 687.98px;
+    left: 340px;
+    width: 180px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.details-table-data {
+    position: absolute;
+    top: 687.98px;
+    left: 625px;
+    width: 180px;
+    height: 24.24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #8B7969;
+}
+
+.confirm-table-detail {
+    position: absolute;
+    top: 736.46px;
+    left: 273px;
+    width: 305px;
+    height: 116.54px;
+    background-color: #BAA899;
+}
+
+.detail-table-header {
+    position: absolute;
+    top: 757.9px;
+    left: 340px;
+    width: 459px;
+    height: 52.21px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.detail-table-data {
+    position: absolute;
+    top: 757.9px;
+    left: 625px;
+    width: 459px;
+    height: 52.21px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #8B7969;
+}
+
+.form__button {
+    position: absolute;
+    top: 903px;
+    left: 696px;
+    width: 120px;
+    height: 42px;
+    padding: 10px 40px;
+    background-color: #82756A;
+
+    /* 理解できていない */
+    /* gap: 10px; */
+}
+
+.form__button-submit {
+    width: 40px;
+    height: 26px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    background-color: #82756A;
+    color: #FFFFFF;
+    border: none;
+    white-space: nowrap;
+
+    
+    
+
+}
+
+.form__button-return-set {
+    position: absolute;
+    top: 914px;
+    left: 868px;
+    width: 40px;
+    height: 24px;
+    font-family: 'Inika', serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0%;
+    color: #8B7969;
+}
+
+
+
+
+
+
+
+
