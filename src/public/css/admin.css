@@ -1,0 +1,232 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+
+    max-width: 1515px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.header-ttl {
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52.12px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #8B7969;
+}
+
+.header-nav-item {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    top: 40px;
+    left: 1317px;
+    border: 1px #D9C6B5;
+}
+
+.header-nav-item-logout {
+    width: 98px;
+    height: 32px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0;
+    color: #D9C6B5;
+    border: none;
+    white-space: nowrap;
+}
+
+
+.admin-form-heading {
+    position: absolute;
+    width: 111px;
+    height: 46px;
+    top: 140px;
+    left: 700px;
+}
+
+.admin-form-heading-name {
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.61px;
+    letter-spacing: 0;
+    color: #8B7969;
+}
+
+
+
+
+
+
+.admin-search-form-name_email {
+    position: absolute;
+    width: 347.47px;
+    height: 50px;
+    top: 215px;
+    left: 164px;
+    border: 1px #E3DED9;
+}
+
+.input-text-name_email {
+    position: absolute;
+    width: 314.43px;
+    height: 26px;
+    top: 226px;
+    left: 183.47px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.85px;
+    letter-spacing: 0%;
+    color: #BEB1A6;
+}
+
+/* 性別 */
+.admin-search-form-gender {
+    position: absolute;
+    width: 102.48;
+    height: 50px;
+    top: 215px;
+    left: 542.9px;
+    border: 1px #E3DED9;
+}
+
+.input-text-gender {
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    top: 228px;
+    left: 530px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.15px;
+    letter-spacing: 0%;
+    color: #8B7969;
+    text-align: center;
+}
+
+/* お問い合わせの種類 */
+.admin-search-form-details {
+    position: absolute;
+    width: 223.04px;
+    height: 50px;
+    top: 215px;
+    left: 677.24px;
+    border: 1px #E3DED9;
+}
+
+.input-text-details {
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    top: 228px;
+    left: 650px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.15px;
+    letter-spacing: 0%;
+    color: #8B7969;
+}
+
+/* 年/月/日 */
+.admin-search-form-year {
+    position: absolute;
+    height: 50px;
+    top: 215px;
+    left: 932.14px;
+    border: 1px #E3DED9 ;
+}
+
+.input-date-year {
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    top: 228px;
+    left: 900px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.15px;
+    letter-spacing: 0%;
+    color: #8B7969;
+}
+
+.search-button {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 223px;
+    left: 1112px;
+    border: 1px #8B7969;
+    background-color: #82756A;
+}
+
+.search-button-submit {
+    width: 44.78px;
+    height: 23px;
+    top: 227px;
+    left: 1140.49px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.45px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    border: none;
+    white-space: nowrap;
+    background-color: #82756A;
+}
+
+.reset-button {
+    position: absolute;
+    width: 102.48px;
+    height: 30px;
+    top: 225px;
+    left: 1245.52px;
+    border: 1px #D9C6B5;
+    background-color: #D9C6B5;
+}
+
+.reset-button-submit {
+    width: 77px;
+    height: 23px;
+    top: 228px;
+    left: 1257px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.45px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    border: none;
+    white-space: nowrap;
+    background-color: #D9C6B5;
+}
+
+.search-form-list {
+    position: absolute;
+    width: 1183px;
+    height: 59px;
+    top: 364px;
+    left: 164px;
+    background-color: #8B7969;
+}
+
+
+
+

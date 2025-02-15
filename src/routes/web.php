@@ -44,6 +44,11 @@ Route::post('/login', [RegisterController::class, 'login']);
 
 
 
+Route::post('/admin', [RegisterController::class, 'admin']);
+
+
+
+
 
 
 

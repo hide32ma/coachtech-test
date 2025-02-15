@@ -69,3 +69,146 @@ main {
     letter-spacing: 0;
     color: #8B7969;
 }
+
+
+/* ここから変化があるよ */
+
+/* 白い箱 */
+.login-form-menus {
+    position: absolute;
+    width: 736px;
+    height: 579px;
+    top: 264px;
+    left: 388px;
+    border: 1px #C5B9B0;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+/* 白い箱の中にあるもう一個の見えない箱 */
+/* .register-form-menus-box { */
+    /* 親要素（register-form-menus）の影響を受けなくさせる */
+    /* position: fixed; */
+    /* position: absolute; */
+    /* width: 445px; */
+    /* height: 396px; */
+    /* top: 341px; */
+    /* left: 534px; */
+    /* gap: 45px; */
+
+/* } */
+
+/* メールアドレス */
+.login-form-email {
+    position: absolute;
+    top: 362px;
+    left: 534px;
+    width: 175px;
+    height: 33px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32.57px;
+    letter-spacing: 0;
+    color: #8B7969;
+}
+
+/* メールアドレス入力欄 */
+.form-input-text-email {
+    position: absolute;
+    width: 445px;
+    height: 55px;
+    top: 409px;
+    left: 534px;
+    background-color: #F4F4F4;
+}
+
+/* メールアドレス入力場所のold関数 */
+.input-text_email {
+    position: absolute;
+    width: 250px;
+    height: 18px;
+    top: 20px;
+    left: 27px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.24px;
+    letter-spacing: 0;
+    color: #BEB1A6;
+    border: none;
+    background-color: #F4F4F4;
+}
+
+
+
+/* パスワード */
+.login-form-password {
+    position: absolute;
+    top: 511px;
+    left: 534px;
+    width: 125px;
+    height: 33px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32.57px;
+    letter-spacing: 0;
+    color: #8B7969;
+}
+
+/* パスワード入力欄 */
+.form-input-text-password {
+    position: absolute;
+    width: 445px;
+    height: 55px;
+    top: 558px;
+    left: 534px;
+    background-color: #F4F4F4;
+}
+
+/* パスワード入力場所のold関数 */
+.input-text_password {
+    position: absolute;
+    width: 140px;
+    height: 18px;
+    top: 20px;
+    left: 27px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.24px;
+    letter-spacing: 0;
+    color: #BEB1A6;
+    border: none;
+    background-color: #F4F4F4;
+}
+
+
+/* ログインボタン */
+.form-button {
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    top: 708px;
+    left: 676px;
+    padding: 10px 40px;
+    gap: 10px;
+    background-color: #82756A;
+    border: none;
+}
+
+
+.form-button-submit {
+    width: 40px;
+    height: 26px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.06px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background-color: #82756A;
+    border: none;
+    white-space: nowrap;
+}

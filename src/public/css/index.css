@@ -8,10 +8,10 @@
 
 h2 {
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 35px;
     line-height: 45.61px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 
     /* 文字が途中で分割されなくなる */
@@ -37,10 +37,10 @@ h2 {
     width: 125.91px;
     height: 26px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 26.06px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
     }
 
@@ -66,10 +66,10 @@ span {
     width: 75.24px;
     height: 18px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 18.24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     border: none;
     background-color: #F4F4F4;
     color: #BEB1A6;
@@ -92,10 +92,10 @@ span {
     width: 75.24px;
     height: 18px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 18.24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     border: none;
     background-color: #F4F4F4;
     color: #BEB1A6;
@@ -122,10 +122,10 @@ span {
     line-height: 26.06px;
     letter-spacing: 0%;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 26.06px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -144,10 +144,10 @@ span {
     width: 55.28px;
     height: 23px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 18px;
     line-height: 23.45px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -168,10 +168,10 @@ span {
     width: 55.28px;
     height: 23px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 18px;
     line-height: 23.45px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -192,10 +192,10 @@ span {
     width: 82.92px;
     height: 23px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 18px;
     line-height: 23.45px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -208,10 +208,10 @@ span {
     width: 248.76px;
     height: 26px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 26.06px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -232,10 +232,10 @@ span {
     width: 211.9px;
     height: 18px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 18.24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #BEB1A6;
     background-color: #F4F4F4;
     border: none;
@@ -249,10 +249,10 @@ span {
     width: 156.63px;
     height: 26px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 26.06px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -274,10 +274,10 @@ span {
     width: 100px;
     height: 18px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 18.24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #BEB1A6;
     background-color: #F4F4F4;
     border: none;
@@ -291,10 +291,10 @@ span {
     width: 95.2px;
     height: 26px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 26.06px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -315,10 +315,10 @@ span {
     width: 348.57px;
     height: 18px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 18.24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #BEB1A6;
     background-color: #F4F4F4;
     border: none;
@@ -333,10 +333,10 @@ span {
     width: 92.13px;
     height: 26px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 26.06px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -356,10 +356,10 @@ span {
     width: 267.18px;
     height: 18px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 18.24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #BEB1A6;
     background-color: #F4F4F4;
     border: none;
@@ -374,10 +374,10 @@ span {
     width: 310.18px;
     height: 26px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 26.06px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -398,10 +398,10 @@ span {
     width: 171.98px;
     height: 18px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 18.24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #BEB1A6;
     background-color: #F4F4F4;
     border: none;
@@ -415,10 +415,10 @@ span {
     width: 279.47px;
     height: 26px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 26.06px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #8B7969;
 }
 
@@ -441,10 +441,10 @@ span {
     width: 343.96px;
     height: 18px;
     font-family: 'Inika', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 18.24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #BEB1A6;
     background-color: #F4F4F4;
     border: none;

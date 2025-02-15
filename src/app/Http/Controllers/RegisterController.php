@@ -8,6 +8,11 @@ use Illuminate\Http\Request;
 use App\Http\Requests\RegisterRequest;
 
 
+//  LoginRequestを使用
+use App\Http\Requests\LoginRequest;
+
+
+
 class RegisterController extends Controller
 {
     // register.blade.phpを表示
@@ -23,7 +28,11 @@ class RegisterController extends Controller
     }
 
 
-
+    public function admin(LoginRequest $request)
+    {
+        $contact = $request->all();
+        return view('admin', compact('contact'));
+    }
 
 
 }
