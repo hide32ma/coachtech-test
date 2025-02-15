@@ -7,7 +7,11 @@ coachtech確認テスト
 
 DS_StoreというMac_osが自動生成する隠しファイルを削除しました
 
-ブラウザで　http://localhost　にアクセスするとお問い合わせフォームにアクセスできます。
+ブラウザで
+
+http://localhost
+
+にアクセスするとお問い合わせフォームにアクセスできます。
 
 フレームワーク　Laravel
 言語　HTML CSS PHP
