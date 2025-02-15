@@ -39,6 +39,13 @@ Route::post('/thanks', [ContactController::class, 'thanks']);
 
 Route::get('/register', [RegisterController::class, 'register']);
 
+Route::post('/login', [RegisterController::class, 'login']);
+
+
+
+
+
+
 
 
 

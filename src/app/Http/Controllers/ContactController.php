@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 // ContactRequestを使用
 use App\Http\Requests\ContactRequest;
 
+
+
+
 use App\Models\Contact;
 
 
@@ -47,7 +50,18 @@ class ContactController extends Controller
 
 
 
+
+
+
     
+
+
+    
+
+
+
+
+
 
 
 
