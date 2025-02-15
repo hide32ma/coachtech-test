@@ -11,7 +11,7 @@ DS_StoreというMac_osが自動生成する隠しファイルを削除しまし
 
 http://localhost
 
-http://localhost／register
+http://localhost/register
 
 にアクセスするとお問い合わせフォームにアクセスできます。
 
